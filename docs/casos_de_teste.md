@@ -23,3 +23,8 @@ Automáticos: `make teste` (arquivo `tests/teste_logico.c`). Manuais: executar `
 | CT-17 | Lore e encontro na interface | Novo Jogo (ENTER avança, ESC pula); andar na grama até um encontro; Pausa > Ver a história | Lore aparece só em jogo novo; animação do encontro toca e ENTER a pula; chefe tem fala própria | Manual |
 | CT-18 | Save por jogador | Salvar "TesteAna" e "TesteBeto"; nomes inválidos (vazio, `../x`, espaço) | Cada nome tem o seu arquivo; um não sobrescreve o outro; nome inválido não gera caminho | Auto |
 | CT-19 | Sprites e reserva | Abrir o jogo com `assets/sprites/` completa; depois renomear um PNG (ex.: `especie_0.png`) e abrir de novo | Com os arquivos, aparecem os sprites; sem um deles, aquele item volta às formas simples e o jogo não trava | Manual |
+
+## Observações
+
+- Execução dos testes pelo grupo (make teste no Windows): 24/11/2026, Mateus, resultado: 232 verificações, 0 falhas.
+- Compilação com -Wall -Wextra: sem avisos.
