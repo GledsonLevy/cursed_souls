@@ -13,12 +13,12 @@ Projeto: Cursed Souls — Ecos Amaldiçoados (Laboratório de Programação em C
 
 | Arquivos | Conteúdo | Quem fez e como |
 |---|---|---|
-| `especie_0.png` a `especie_6.png` | As 7 criaturas | [nome] com [ferramenta, ex.: Pixel Lab] |
-| `jogador*.png`, `guardiao_*.png` | Jogador e Guardião (mapa e batalha) | [nome] com [ferramenta] |
-| `parede_*.png`, `grama_*.png`, `arvore.png` | Tiles do mapa | [nome] com [ferramenta] |
-| `fogueira.png`, `portal_*.png` | Fogueira e portais (animados) | [nome] com [ferramenta] |
-| `titulo.png` | Logo do menu | [nome] com [ferramenta] |
-| `fundo_menu.png`, `fundo_batalha_*.png` | Fundos do menu e das batalhas | [nome] com [ferramenta] |
+| `especie_0.png` a `especie_6.png` | As 7 criaturas | Glêdson com Gemini |
+| `jogador*.png`, `guardiao_*.png` | Jogador e Guardião (mapa e batalha) | Glêdson com Gemini|
+| `parede_*.png`, `grama_*.png`, `arvore.png` | Tiles do mapa | Glêdson com Gemini|
+| `fogueira.png`, `portal_*.png` | Fogueira e portais (animados) | Glêdson com Gemini |
+| `titulo.png` | Logo do menu | Glêdson com Gemini |
+| `fundo_menu.png`, `fundo_batalha_*.png` | Fundos do menu e das batalhas | Glêdson com Gemini |
 
 
 ## Outros
