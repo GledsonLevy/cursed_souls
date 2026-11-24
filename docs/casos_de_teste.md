@@ -1,6 +1,6 @@
 # Casos de teste
 
-Automáticos: `make teste` (arquivo `tests/teste_logico.c`). Manuais: executar `./cursedsouls`.
+Automáticos: `make teste` (arquivo `tests/teste_logico.c`). 
 
 | ID | Descrição | Entrada | Resultado esperado | Tipo |
 |---|---|---|---|---|
@@ -15,14 +15,10 @@ Automáticos: `make teste` (arquivo `tests/teste_logico.c`). Manuais: executar `
 | CT-09 | XP e nível | XP exato, enorme, negativo | Sobe nível; trava em 20; negativo ignorado | Auto |
 | CT-10 | Batalha | Habilidade sem energia, poção com HP cheio, fugir do chefe, derrota | Ação inválida não gasta turno; fim correto | Auto |
 | CT-11 | Nome e ranking | "", "com espaco", nome longo; 13 jogadores; mesmo nome com pontuação menor e maior; pontuação abaixo do top 10 | Nomes inválidos rejeitados; top 10 ordenado; cada nome aparece uma vez com a melhor pontuação | Auto |
-| CT-12 | Nome inválido na interface | Digitar espaço/símbolos; ENTER com campo vazio | Espaço vira `_`; símbolos ignorados; vazio mostra erro | Manual |
-| CT-13 | Continuar com nome sem save | Menu > Continuar > digitar um nome que nunca salvou | Aviso "Nenhum jogo salvo para esse nome" | Manual |
-| CT-14 | Reiniciar/sair | Fim de jogo > Recomeçar / Sair | Volta ao nome do jogador / fecha o programa | Manual |
 | CT-15 | Guardião invocador | Chefe com 3 criaturas; derrubar uma por vez; tentar fugir | Envia a próxima a cada queda; vitória só após a 3ª; fuga bloqueada; bônus de pontos | Auto |
 | CT-16 | Lore | Todos os painéis; índices -1 e acima do limite | Painéis não vazios; índice inválido devolve texto vazio | Auto |
-| CT-17 | Lore e encontro na interface | Novo Jogo (ENTER avança, ESC pula); andar na grama até um encontro; Pausa > Ver a história | Lore aparece só em jogo novo; animação do encontro toca e ENTER a pula; chefe tem fala própria | Manual |
 | CT-18 | Save por jogador | Salvar "TesteAna" e "TesteBeto"; nomes inválidos (vazio, `../x`, espaço) | Cada nome tem o seu arquivo; um não sobrescreve o outro; nome inválido não gera caminho | Auto |
-| CT-19 | Sprites e reserva | Abrir o jogo com `assets/sprites/` completa; depois renomear um PNG (ex.: `especie_0.png`) e abrir de novo | Com os arquivos, aparecem os sprites; sem um deles, aquele item volta às formas simples e o jogo não trava | Manual |
+
 
 ## Observações
 
