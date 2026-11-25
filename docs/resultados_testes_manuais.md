@@ -4,14 +4,14 @@ Manuais: executar `./cursedsouls`.
 
 # Resultados dos testes manuais
 
-Executados por [seu nome] em [data], no Windows 11.
+Executados por [Glêdson] em [24/11], no Windows 11.
 
 | ID | Resultado obtido | Passou? |
 |---|---|---|
 | CT-12 | O espaço vira _, os símbolos são ignorados e o vazio mostra erro | Sim | 🆗
 | CT-13 | Aparece "Nenhum jogo salvo para esse nome" e você fica na mesma tela | Sim | 🆗
-| CT-14 | As duas opções funcionam | Sim | 🆗
-| CT-17 | Tudo isso acontece | Sim | 🆗
+| CT-14 | As opções de recomeçar e sair funcionaram corretamente | Sim | 🆗
+| CT-17 | A lore, a animação de encontro e a fala exclusiva do chefe funcionaram conforme esperado | Sim | 🆗
 | CT-19 | O jogo abre nos dois casos, com a forma simples no segundo | Sim | 🆗
 
 
