@@ -73,7 +73,7 @@ src/        main.c (laço e telas) · interface.c (desenho Raylib) · assets.c (
             batalha.c · regras.c · ressurreicao.c · arquivos.c · pontuacao.c · lore.c
 include/    um .h por módulo
 tests/      teste_logico.c (14 grupos de teste, 232 verificações)
-docs/       casos_de_teste.md
+docs/       casos_de_teste.md · relatório.pdf
 assets/     sprites/ (imagens do jogo)
 saves/      <nome>.sav (um por jogador) e ranking.txt (gerados em execução)
 CREDITOS.md origem da arte e uso de ferramentas
